@@ -1,0 +1,50 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+<!-- Deployment Descriptor -->
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <description>
+    First servlet web app
+  </description>
+
+  <servlet>
+    <servlet-name>DateServlet</servlet-name>
+    <servlet-class>com.zahid.servlets.DateServlet</servlet-class>
+  </servlet>
+
+  <!-- <servlet>
+    <servlet-name>ConverterServletHTML</servlet-name>
+    <servlet-class>com.zahid.servlets.ConverterServlet1</servlet-class>
+  </servlet> -->
+
+  <servlet>
+    <servlet-name>ConverterServletJSP</servlet-name>
+    <servlet-class>com.zahid.servlets.ConverterServletJSP</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>CalculatorServlet</servlet-name>
+    <servlet-class>com.zahid.servlets.CalculatorServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>DateServlet</servlet-name>
+    <url-pattern></url-pattern>
+  </servlet-mapping>
+  
+  <!-- <servlet-mapping>
+    <servlet-name>ConverterServletHTML</servlet-name>
+    <url-pattern>/convert</url-pattern>
+  </servlet-mapping> -->
+  
+  <servlet-mapping>
+    <servlet-name>ConverterServletJSP</servlet-name>
+    <url-pattern>/convert</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>CalculatorServlet</servlet-name>
+    <url-pattern>/calculate</url-pattern>
+  </servlet-mapping>
+</web-app>
