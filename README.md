@@ -9,6 +9,6 @@ jetty has been used instead of tomcat for embedded server/servlet container
 
 ## working urls
 
-    localhost:8081 (for HelloWorldServlet)
+    localhost:8081 (for DateServlet)
     localhost:8081/calculator.jsp (for CalculatorServlet)
     localhost:8081/converter.jsp (for ConverterServletJSP)
